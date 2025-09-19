@@ -1,15 +1,15 @@
-const app = require('./app');
+const app = require('./app')
 
-require('dotenv').config();
+require('dotenv').config()
 
-const PORT = process.env.PORT;
+const PORT = process.env.PORT
 
-const authRoutes = require('./routes/authRoutes');
+const authRoutes = require('./routes/authRoutes')
 
-app.use('/api/auth', authRoutes);
+app.use('/api/auth', authRoutes)
 
 
 app.listen(PORT, () => {
-    console.log(`rodando na porta: ${PORT}`);
+    console.log(`rodando na porta: ${PORT}`)
 
 });
