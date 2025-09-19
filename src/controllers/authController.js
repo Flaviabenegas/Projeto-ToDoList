@@ -25,7 +25,7 @@ async function registerUser(req, res) {
 
         res.status(201).json({
             id: savedUser._id,
-            name: savedUser.user_name,
+            name: savedUser.userName,
             email: savedUser.email,
         });
 
