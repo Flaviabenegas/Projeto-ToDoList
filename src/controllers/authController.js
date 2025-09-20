@@ -60,7 +60,11 @@ async function loginUser(req, res) {
 
         return res.status(200).json({
             message: 'Login bem-sucedido!',
-            token: token
+            token: token,
+            user: {
+                id: existingUser._id,
+                userName: existingUser.userName
+            }
         });
     } else {
         return res.status(401).json({ message: 'Credenciais inválidas' })

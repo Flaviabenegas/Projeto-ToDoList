@@ -11,11 +11,23 @@
 <header class="cabecalho">
     <div>
     <h2>To-do-List</h2></div>
+    <div><small>Olá,<span id="user-name-display"></small></span></div>
     <div class="sair">
         <button class="btn" id="logout-btn">sair</button>
     </div>
 </header>
+
 <main id="task-page">
+    <section class="add-task-container">
+    <form id="add-task-form">
+        
+        <div id="new-tasks" class="hide">
+        <label for="taskTitle"  id="labelTarefa">Nova Tarefa:</label>
+        <input type="text" id="taskTitle" placeholder="O que você precisa fazer?">
+        </div>
+        <button type="submit" class="btn" id="add-task">Adicionar Nova Tarefa</button>
+    </form>
+</section>
     <section >
         <div class="tarefas">
         <ul id="task-list">
@@ -24,17 +36,11 @@
         </div>
     </section>
    
-   <section class="add-task-container">
-    <form id="add-task-form">
-        <label for="taskTitle">Nova Tarefa:</label>
-        <input type="text" id="taskTitle" placeholder="O que você precisa fazer?">
-        <button type="submit" class="btn">Adicionar</button>
-    </form>
-</section>
+   
    
    
 </main>  
-<footer class="rodape"><small>To-do-List</small> <span id="ano"></span></footer>
+<footer class="rodape"><small>To-do-List </small> <span id="ano"> </span></footer>
 <script src="script.js"></script>
 </body>
 </html>

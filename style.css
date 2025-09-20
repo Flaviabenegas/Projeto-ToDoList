@@ -40,6 +40,7 @@ main{
 }
 
 .container {
+    
     display: flex;
     flex-direction: column;
     background-color: var(--box);
@@ -102,22 +103,55 @@ ul {
 
 
 .tarefas li {
-   padding: .3rem;
+     min-width: 85vw;
+    padding: .3rem;
    border: 2px solid white;
    text-decoration: none;
    margin: 0.3rem, 0;
    background-color: var(--box);
    border-radius: 5px;
+   overflow-wrap: break-word;
 }
 
 .tarefas {
+    
     display: flex;
     justify-content: left;
     border-radius: 5px;
+    background-color: white;
+    padding: 1rem;
 }
 
 button {
     border: none;
     background-color: transparent;
     cursor: pointer;
+}
+
+.add-task-container{
+   max-width: 80vw;
+   padding: 0.5rem;
+   margin-top: 0.7rem;
+   min-width: 60vw;
+}
+
+input {
+    width: 100%;
+    
+}
+
+.task-actions button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem; 
+    margin-left: 8px;  
+}
+
+.task-display {
+    display: flex;                  
+    justify-content: space-between; 
+    align-items: center;            
+    width: 100%;                    
+    padding: 8px 4px;               
 }
