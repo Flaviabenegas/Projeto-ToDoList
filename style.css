@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --fundo: #F5F5F5;
+    --box: #F5D2D2;
+    --botao: #A3CCDA;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--fundo);
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    flex-direction: column;
+
+}
+
+.cabecalho {
+    border-bottom: 2px solid var(--box);
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--box);
+    border-radius: 5px;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5rem 0;
+}
+
+form {
+    display: grid;
+     gap: .5rem;
+}
+
+.rodape {
+    border-top: 1px solid var(--borda);
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6b7280;
+    margin-top: auto;
+}
+
+.btn {
+    background-color: var(--botao);
+    border: none;
+    padding: .5rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+input {
+    border: none;
+    padding: .2rem;
+    border-radius: 5px;
+    
+}
+
+p {
+    margin-top: 0.3rem ;
+    text-transform: uppercase;
+    font-size: smaller;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.hide {
+    display: none;
+}
+
+ul {
+    list-style-type: none
+}
+
+
+.tarefas li {
+   padding: .3rem;
+   border: 2px solid white;
+   text-decoration: none;
+   margin: 0.3rem, 0;
+   background-color: var(--box);
+   border-radius: 5px;
+}
+
+.tarefas {
+    display: flex;
+    justify-content: left;
+    border-radius: 5px;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
