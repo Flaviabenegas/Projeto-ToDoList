@@ -3,9 +3,9 @@
 ![Badge de Status do Projeto](https://img.shields.io/badge/status-conclu%C3%ADdo-brightgreen)
 
 Este é um projeto de uma aplicação de Lista de Tarefas (To-Do List) completo, construído do zero com uma arquitetura Full-Stack. A aplicação permite que usuários se cadastrem, façam login de forma segura e gerenciem suas próprias tarefas pessoais através de uma interface interativa. O projeto foi desenvolvido para demonstrar habilidades em desenvolvimento backend com Node.js e frontend com JavaScript puro.<br>
-![Tela de cadastro](img\cadastro.png)
-![Tela de login](img\tela-login.png)
-![Tela de tarefas](img\tela-tarefas.png)
+![Tela de cadastro](https://github.com/Flaviabenegas/Projeto-ToDoList/blob/master/img/cadastro.png)<br>
+![Tela de login](https://github.com/Flaviabenegas/Projeto-ToDoList/blob/master/img/tela-login.png)
+![Tela de tarefas](https://github.com/Flaviabenegas/Projeto-ToDoList/blob/master/img/tela-tarefas.png)
 
 ## ✨ Funcionalidades
 
